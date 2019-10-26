@@ -1,0 +1,66 @@
+{
+    "First_name": "Sam",
+    "Last_name": "Wheeling",
+    "Images": [
+        "1.jpg",
+        "2.jpg",
+        "3.jpg",
+        "4.jpg",
+        "5.jpg",
+        "5.jpg",
+        "6.jpg",
+        "7.jpg",
+        "8.jpg",
+        "9.jpg",
+        "10.jpg",
+        "bangachain.jpg",
+        "sam.jpg",
+        "SL.jpg"
+    ],
+    "Pages": [
+        "Home",
+        "About Me",
+        "Contact",
+        "Blog"
+    ],
+    "Pre-Work_2": {
+        "Question1": 
+            "What are your thoughts on Pseudo Coding?",
+        "Reply1": 
+            "Not sure what to think on Pseudo coding. I understand the concept of how it works. I believe the flowchart may make it easier for those who are more visual. I am sure that as I continue to learn and grow I will better understand.",
+        "Question2":
+             "What are you struggling with?",
+        "Reply2": 
+            "Currently struggling with connecting CSS stylesheet to lines of code. The more we learn to code the more lines we will have that will need to have styles different on each page. Still working on the concept of one stylesheet and labeling it so that I understand where I am on the webpage for design. Also having a better feel for the pull and push request for git using terminal.",
+        "Question3": 
+            "What are you excited or eager to learn more about?",
+        "Reply3": 
+            "I am excited to learn the behind the scenes of a website. How to store data from a user as well as keep data of inputs that I may do on the page so that I am not typing paragraphs into code. Building a website that deals with e-commerce."
+    },
+    "Pre-Work_3": {
+        "Question1": 
+            "What are your thoughts about the roles HTML, CSS, and Javascript play in the process of rendering content and providing user experience?",
+        "Result1": 
+            "The role of HTMl seems to be the simplest. This is what most users will be reading and seeing with their eyes. The main reason they came to the page. The role of CSS is to make what was inserted on the page have a specific layout so that the page seems more appealing to the eye. Most users want a page that has some style to it but at the same time is easy to understand. The role of Javascript is what will allow the user of the page to actually use the function of the page. This is what creates repeat visits. The information is nice to view on a page, however if the flow of the page works seamlessly then the odds a person will be back to use the page will be more significant."
+    },
+    "Pre-Work_4": {
+        "Question1": 
+            "What was one thing you liked and disliked about each of the new topics covered in Prework? What was helpful? What hindered your progress? How did you overcome challenges?",
+        "Result1": 
+            "I loved that we were able to learn some new topics about how to get a website to switch between pages with out actual refreshing the page. The more that we learn, the better we will become at designing pages without using methods that may require maps to draw out what we are trying to do. This will keep the code short and clean. I was able to go to the class room and work with Justin on building better Pseudo code. This gave me the opportunity to talk about the path that I saw in how to do the project. Being able to learn how to think like a web developer will be key to better understanding how to code. Hindering my progress was just knowledge. I looked up how i thought I needed to build the mind reader, but when I talked it over, Justin was looking for a different way for us to build the site. There were several ways to build the site but some were easier than others. There isn't an easy way to overcome challenges as im still trying to make sure that I am doing Var and functions correctly. I just make sure that I ask questions when i feel lost as well as make sure that I am working ahead and fixing things as needed."
+    },
+    "Bootcamp Week 1": {
+        "Question1":
+             "What did you learn about that helped you understand more about Design?",
+        "Result": 
+            "I learned more about white space. Usually when designing i have always understood about making sure there is a margin around the border of the page. I have background in printing. However, I never looked at white space as the room around an image to create a separate focal point than where most peoples eyes go. When working on our project it was interesting to look at the over all layout of the page to see if any links, buttons, or even text boxes need to be moved around.",
+        "Question2": 
+            "What do you want to continue learning about that helps you understand Design better?",
+        "Result2": 
+            "I want to dive more into colors and when to choose certain colors. Usually I use colors that I like, thats how I determine what I want to use. Knowing what a color brings to the feelings of the targeted audience of the webpage. Certain colors may help bring out feelings needed to draw in more viewers for a webpage. More viewers will lead to a more successful site.",
+        "Question3":
+            "What Design aspects are important to you as a user and as a developer?",
+        "Result3":
+            "The biggest aspect that is most important to me as a developer will be the simplicity of the site. How easy it the site to navigate and read. If its hard to navigate then most users will less likely be back. If it's hard to read then viewers may go to another site to either read what info they are looking for or even purchase from another site just because they can view the information better."
+    }
+}
