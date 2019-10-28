@@ -62,5 +62,75 @@
             "What Design aspects are important to you as a user and as a developer?",
         "Result3":
             "The biggest aspect that is most important to me as a developer will be the simplicity of the site. How easy it the site to navigate and read. If its hard to navigate then most users will less likely be back. If it's hard to read then viewers may go to another site to either read what info they are looking for or even purchase from another site just because they can view the information better."
-    }
+        },
+        "Bootcamp Week 2": {
+            "Question1": 
+                "What did you learn about that helped you understand the Development process?",
+            "Result1":   
+                "Slowing down was the biggest thing that has helped me understand the development process. I'm always ready to be a keyboard warrior and type code. it helps to slow down write down Pseudo Code and make my game plan for what I am needing to do in the steps that I am needing to do them in. It was hard for me at first to grasp this concept. I have always worked in a retail environment where there wasn't any time to waste time. This is still a learning curve for me but it has helped so far in the daily project game plan.",
+            
+            "Question2":
+                "What are you struggling with? What does it mean to develop good code?",
+            "Result2":
+                "Good code is hard to explain. The easiest way I can think to explain it in simple terms is to think of it as a recipe. It should be easy to read and anyone who comes to read it after you have closed the book should be able to follow it. This allows anyone to make sense of the project that you are working on. The only thing that I would add to making good code is to also make notes. This will help yourself follow along and sometimes even skip to certain parts of the page so that you can find what you are looking for so that if needed it will be easier to fix any bugs if needed.",
+            
+            "Question3":
+                "What are you excited or eager to learn more about? What does it mean to be a good      Developer?",
+            "Result":
+                "To be a good developer, you have to be able to learn and adapt. I went to the Tech X conference that was held in Lexington,KY and I found that a lot of the developers know several programs but all of them prefer one or the other. When hired by a company you have to use the program that they want you to use. This will create a cleaner coding work environment. It also helps to want to learn new programs so that a developer can grow. The learning never stops as well as writing good clean code."
+        },
+        "Bootcamp Week 3": {
+            "Question1":
+                "What are your thoughts about the roles HTML, CSS, and Javascript play in the process of rendering content and providing user experience?",
+            "Result":
+                "I learned more about white space. Usually when designing i have always understood about making sure there is a margin around the border of the page. I have background in printing. However, I never looked at white space as the room around an image to create a separate focal point than where most peoples eyes go. When working on our project it was interesting to look at the over all layout of the page to see if any links, buttons, or even text boxes need to be moved around. So far I find Javascript some what hard to use. There are tons of ways to use the language to get what aspects of the code you are looking for. As the program evolves there will be easier ways to accomplish the task at hand. Working on trying to write cleaner code will be my main goal. I find myself writing code to my understanding not realizing that the there maybe a different way yo use Javascript to create clean code.",
+            "Question2":
+                "What aspects about Javascript are you interested in learning more about?",
+            "Result2":    
+                "As class continues I really want to dive in to how to manipulate the logic of how Javascript works. Understand more about how to get objects as well as functions to work will allow me to continue to write cleaner code. This will make it easier to read and understand for myself as well as any future employer."
+        },
+        "Bootcamp Week 4": {
+            "Question1":
+                "Why do you see Javascript Frameworks and Libraries useful or hard to use?",
+            "Result1":
+                "When it comes to Frameworks and Libraries I cant honestly say currently if there are things that I would say is hard to use. Once you understand them and know what they do it seems to be a pretty easy process. Just making sure that you are using the correct libraries needed for the project at hand will be key for success. ",
+            "Question2":
+                "What Frameworks or Libraries are you interested in learning more about?",
+            "Result2":
+                "There are so many Frameworks and Libraries that I am not sure where to start to learn. Just looking for other ways another Framework or Library will work with the project will be key. Understanding what is needed and wanted as well as what the key benefits of each Framework can help better understand what there is to learn. "
+        },
+        "Bootcamp Week 5": {
+            "Question1":
+                "Why are CLIs scary?",
+            "Result1":
+                "CLIs dont seem scary. Just making sure that there are not any typos. Making sure that when working with folders that I am inside the correct one.",
+            "Question2":
+                "What have you learned about CLIs?",
+            "Result2":
+                "CLIs will become very handy in future projects. Also working with the terminal more will allow me to become better familiar with typing with out using my mouse to navigate my PC.",
+            "Question3": 
+               "What Frameworks or Libraries are you interested in learning more about?",
+            "Result3":
+                "There are so many frameworks and libraries that I cant possibly know which ones I want to learn more. Where ever I go in my career I am sure that they will come up and I will have to learn them then. If one comes up in my career and I don't need it but I want to learn I then may reach out to learn it. ",
+            "Question4":
+                "Would you build a CLI? What would it do?",
+            "Result4":
+                "I would build a CLI to help me start new projects and build the file structure needed to make a more streamline process. As I better understand CLIs, I then will know their real power and what I could use one to do that will better my career."
+        },
+        "Bootcamp Week 6": {
+            "Question1":
+                "What do you like about React?",
+            "Result1":
+                "Creating components in React and then reusing them over and over without having to rebuild a function was great. This will allow me to reuse code for other projects. ",
+            "Question2":
+                "What are you struggling with the most about React?",
+            "Result2":
+                "Creating a parent/child relationship and using the correct syntax is probably one of the hardest things that I am struggling with. I understand the concept and what needs to be done so that the site works. Once I use it more often I know that it will be second nature. ",
+            "Question2":
+                "How has React caused you to rethink your existing projects?",
+            "Result2":
+                "When using REACT, I have to Psuedo code better for the code that I am writing. Knowing what components I may need as well as what all features I want each part of the site to do before I start it will be key in not having lava code. This will allow me to also make sure that when the site is complete that I will not have to backtrack and redo code."
+        },
+
+
 }
