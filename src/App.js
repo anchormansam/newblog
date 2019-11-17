@@ -1,8 +1,8 @@
 import React from 'react';
-import DataCard from './InfoCards'
-import Jumbotron from './Jumbotron';
-import NavBar from './NavBar';
-import VerticalAccordion from './Accordion/VerticalAccordion';
+import DataCard from './Components/InfoCards'
+import Jumbotron from './Components/Jumbotron';
+import NavBar from './Components/NavBar';
+import VerticalAccordion from './Components/Accordion/VerticalAccordion';
 
 class App extends React.Component{
     render() {
