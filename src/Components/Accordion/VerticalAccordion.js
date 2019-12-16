@@ -8,13 +8,13 @@ function VerticalAccordion() {
   const LinkTitles = [
     {
       iconImages: 
-        '',
+        'Home', 'Away'
       websiteTitle:
-        '',
+      'Home', 'Away',
       actualLink:
-        '',
+      'Home', 'Away',
       locationTaken:
-        ''
+        'Home', 'Away',
     },
    
   ]

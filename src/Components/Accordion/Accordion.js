@@ -1,27 +1,36 @@
 import React from "react";
 import {
-  Card,
-  CardImg,
-  CardTitle,
-  CardText,
-  CardDeck,
-  CardSubtitle,
-  CardBody
-} from "reactstrap";
-import MediaQuery from "react-responsive";
+    Card,
+    CardImg,
+    CardTitle,
+    CardText,
+    CardDeck,
+    CardSubtitle,
+    CardBody
+  } from "reactstrap";
 
-const InfoCards = props => {
-  return (
-    <CardDeck style={{ padding: 30 }}>
+const InfoAccordion = props => {
+    return (
+<div id="accordion">
+  <div class="card">
+    <div class="card-header" id="headingOne">
+      <h5 class="mb-0">
+        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          About Me
+        </button>
+      </h5>
+    </div>
+
+    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+      <div class="card-body">
       <Card>
         <CardImg
           top
-          width="100%"
+          width="50%"
           src="images/profile.jpg"
           alt="Card image cap"
         />
         <CardBody>
-          <CardTitle className="text-center">About Me</CardTitle>
           <CardSubtitle>
             “The road to success and the road to failure are almost exactly the
             same.” – Colin R. Davis
@@ -45,6 +54,19 @@ const InfoCards = props => {
           {/* <Button>Button</Button> */}
         </CardBody>
       </Card>
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingTwo">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          My Journey
+        </button>
+      </h5>
+    </div>
+    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+      <div class="card-body">
       <Card>
         <CardImg
           top
@@ -82,7 +104,19 @@ const InfoCards = props => {
           </CardText>
           {/* <Button>Button</Button> */}
         </CardBody>
-      </Card>
+      </Card>      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingThree">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        Life outside of Work
+        </button>
+      </h5>
+    </div>
+    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+      <div class="card-body">
       <Card>
         <CardImg
           top
@@ -119,8 +153,13 @@ const InfoCards = props => {
           {/* <Button>Button</Button> */}
         </CardBody>
       </Card>
-    </CardDeck>
-  );
-};
 
-export default InfoCards;
+      </div>
+    </div>
+  </div>
+</div>
+
+    );
+}
+
+export default InfoAccordion;

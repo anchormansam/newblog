@@ -2,6 +2,10 @@ import React from 'react';
 
 
 class Jumbotron extends React.Component {
+buttonClick(){
+    console.log('clicked');
+}
+
     render() {
         return (
             <div className="jumbotron">
@@ -10,7 +14,7 @@ class Jumbotron extends React.Component {
                 <hr className="my-4" />
                     <p>This is where i would give credit to the quote</p>
                     <p className="lead">
-                        <a className="btn btn-primary btn-lg" href="Contact" role="button">Contact Me</a>
+                        <button className="btn btn-primary btn-lg" href="Contact" onClick={this.buttonClick}>Contact Me</button>
                     </p>
             </div>
                 )
