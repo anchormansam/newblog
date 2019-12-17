@@ -33,9 +33,12 @@ const InfoCards = props => {
               </li>
             </ul>
             <div className="card-body text-center">
-              <a href="work.html" className="card-link">
-                Resume
+            <a 
+            href='Resume.pdf'
+            download>
+              Resume
               </a>
+              
               <a href="#" className="card-link">
                 Another link
               </a>

@@ -1,8 +1,8 @@
 import React from "react";
-import Jumbotron from "./Components/Jumbotron/Jumbotron";
 import NavBar from "./Components/Navbar/NavBar";
 import InfoCards from "./Components/InfoCards";
 import InfoAccordion from "./Components/Accordion/Accordion";
+import HomeView from "./Components/HomeView/HomeView";
 import MediaQuery from "react-responsive";
 
 class App extends React.Component {
@@ -10,7 +10,7 @@ class App extends React.Component {
     return (
       <React.Fragment>
         <NavBar />
-        <Jumbotron /> 
+        <HomeView />
         <MediaQuery minDeviceWidth="900px">
           {matches => (matches ? <InfoCards /> : <InfoAccordion />)}
         </MediaQuery>

@@ -1,5 +1,6 @@
 import React from 'react';
-import './NavBar.css';
+import './NavBar.scss';
+import { Navbar } from 'react-bootstrap';
 
 const menuTitle = ["Home", "About Me", "Contact", "Blog",];
 
@@ -14,7 +15,7 @@ function NavBar(props) {
   });
 
   return (
-    <nav id="navbarColor" className="navbar navbar-expand-lg navbar-light bg-dark">
+    <Navbar id="navbarColor" className="navbar navbar-expand-lg navbar-light bg-dark" sticky="top">
       <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
         <span className="navbar-toggler-icon"></span>
       </button>
@@ -30,7 +31,7 @@ function NavBar(props) {
           <button className="btn btn-link my-2 my-sm-0" type="submit">Search</button>
         </form>
       </div>
-    </nav>
+    </Navbar>
   );
 }
 
