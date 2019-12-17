@@ -1,14 +1,18 @@
 import React from 'react';
+import './Jumbotron.scss';
+
+
 
 
 class Jumbotron extends React.Component {
+
 buttonClick(){
     console.log('clicked');
 }
 
     render() {
         return (
-            <div className="jumbotron">
+            <div id="titleJumbo" className="jumbotron" >
                 <h1 className="display-4">Welcome!</h1>
                 <p className="lead">This is where I could add a fancy quote... but i didnt!</p>
                 <hr className="my-4" />

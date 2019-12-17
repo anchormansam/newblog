@@ -8,7 +8,6 @@ import {
   CardSubtitle,
   CardBody
 } from "reactstrap";
-import MediaQuery from "react-responsive";
 
 const InfoCards = props => {
   return (
@@ -100,20 +99,22 @@ const InfoCards = props => {
             scene with running charity events and leagues.
           </CardSubtitle>
           <CardText>
-            <ul className="list-group list-group-flush text-center">
-              <li className="list-group-item">
-                <a href="https://www.pdga.com/player/55572" target="_blank">
-                  PDGA Profile
+            <div>
+              <ul className="list-group list-group-flush text-center">
+                <li className="list-group-item">
+                  <a href="https://www.pdga.com/player/55572" target="_blank">
+                    PDGA Profile
+                  </a>
+                </li>
+              </ul>
+              <div className="card-body text-center">
+                <a href="#" className="card-link">
+                  Card link
                 </a>
-              </li>
-            </ul>
-            <div className="card-body text-center">
-              <a href="#" className="card-link">
-                Card link
-              </a>
-              <a href="#" className="card-link">
-                Another link
-              </a>
+                <a href="#" className="card-link">
+                  Another link
+                </a>
+              </div>
             </div>
           </CardText>
           {/* <Button>Button</Button> */}

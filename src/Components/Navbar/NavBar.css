@@ -1,0 +1,7 @@
+#navbarColor {
+    background: linear-gradient(
+      to bottom,
+      black,
+      transparent
+    )
+  }
