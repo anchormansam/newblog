@@ -1,12 +1,18 @@
 import React from 'react';
 import './NavBar.scss';
 import { Navbar } from 'react-bootstrap';
+// import BlogPost from "./Components/BlogPost/Blog"
 
-const menuTitle = ["Home", "About Me", "Contact", "Blog",];
+
+const menuTitle = [
+  "Home", 
+  "About Me", 
+  "Contact", 
+  "Blog",
+];
 
 function NavBar(props) {
   const mappedList = menuTitle.map((item, idx) => {
-    console.log(idx)
     return (
       <li key={idx} className="nav-item ">
         <a className="nav-link btn btn-link text-white" href={item}>{item}</a>
