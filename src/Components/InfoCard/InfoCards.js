@@ -8,12 +8,14 @@ import {
   CardSubtitle,
   CardBody
 } from "reactstrap";
+import "./InfoCards.scss";
 
 const InfoCards = props => {
   return (
     <CardDeck style={{ padding: 30 }}>
       <Card>
         <CardImg
+          id="Card"
           top
           width="100%"
           src="images/profile.jpg"
@@ -33,12 +35,10 @@ const InfoCards = props => {
               </li>
             </ul>
             <div className="card-body text-center">
-            <a 
-            href='Resume.pdf'
-            download>
-              Resume
+              <a href="Resume.pdf" download>
+                Resume
               </a>
-              
+
               <a href="#" className="card-link">
                 Another link
               </a>
@@ -49,8 +49,9 @@ const InfoCards = props => {
       </Card>
       <Card>
         <CardImg
+          id="Card"
           top
-          width="100%"
+          width="auto"
           src="images/awesome.jpg"
           alt="Card image cap"
         />
@@ -87,6 +88,7 @@ const InfoCards = props => {
       </Card>
       <Card>
         <CardImg
+          id="Card"
           top
           width="100%"
           src="images/worklife.jpg"
