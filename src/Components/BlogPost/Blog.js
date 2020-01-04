@@ -1,5 +1,6 @@
 import React from "react";
 import data from "../DataJSON/data.json";
+import NavBar from "../Navbar/NavBar";
 
 const preWorkTwo = data.PreWorkTwo;
 const preWorkThree = data.PreWorkThree;
@@ -17,6 +18,9 @@ export default class BlogPost extends React.Component {
   render() {
     return (
       <div>
+      <NavBar />
+      
+    
         {preWorkTwo.map((p, i) => {
           return (
             <div key={i}>
