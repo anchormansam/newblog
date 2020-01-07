@@ -11,16 +11,13 @@ const bootcampThree = data.BootcampThree;
 const bootcampFour = data.BootcampFour;
 const bootcampFive = data.BootcampFive;
 const bootcampSix = data.BootcampSix;
-const bootcampSeven = data.BootcampSeven;
-const bootcampEight = data.BootcampEight;
+// const bootcampSeven = data.BootcampSeven;
+// const bootcampEight = data.BootcampEight;
 
 export default class BlogPost extends React.Component {
   render() {
     return (
       <div>
-      <NavBar />
-      
-    
         {preWorkTwo.map((p, i) => {
           return (
             <div key={i}>
