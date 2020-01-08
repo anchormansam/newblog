@@ -1,6 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import data from "../DataJSON/data.json";
+import "./BlogMenu.scss";
 
 const preWorkTwo = data.PreWorkTwo;
 const preWorkThree = data.PreWorkThree;
@@ -53,13 +54,14 @@ const routes = posts.map((item, idx) => {
 export default function BlogMenu() {
   return (
     <Router>
-      <div style={{ display: "flex" }}>
+      <div style={{ display: "flex" }} class="sideMenu">
         <div
           style={{
             padding: "10px",
             width: "40%",
             background: "#f0f0f0"
           }}
+          class="menuTitle"
         >
           <ul style={{ listStyleType: "none", padding: 0 }}>
             <li>
